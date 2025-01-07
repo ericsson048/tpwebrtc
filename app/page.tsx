@@ -1,9 +1,13 @@
-import Image from "next/image";
+import CallNotification from "@/components/CallNotification";
+import ListOnlineUsers from "@/components/ListOnlineUsers";
+import VideoCall from "@/components/VideoCall";
 
 export default function Home() {
   return (
-    <div>
-      we chat
+    <div className="flex flex-col items-center justify-center">
+      <ListOnlineUsers/>
+      <CallNotification/>
+      <VideoCall/>
     </div>
   );
 }

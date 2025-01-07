@@ -4,7 +4,7 @@ export default function ClerkLayout({
     children: React.ReactNode;
   }>) {
     return (
-      <div className="container grid place-content-center">
+      <div className="container flex items-center justify-center">
         {children}
       </div>
     );
